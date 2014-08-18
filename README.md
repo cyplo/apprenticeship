@@ -54,6 +54,10 @@ Computer bootup process
 
 Networking
 
+IPC
+
+multitasking
+
 Working with code  
 
 * ability to read code
@@ -63,4 +67,6 @@ Working with code
 * ifs/switch -> dictionary  
 * when to refactor ?   
     * symmetry broken  
-* 
+* always reproduce a bug with fully automated test first
+* good naming: what it does, not how it does it
+* introduction to TDD
