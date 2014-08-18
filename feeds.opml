@@ -24,7 +24,6 @@
     <outline text="Paul Allen Engineering - Blog" title="Paul Allen Engineering - Blog" type="rss" xmlUrl="http://www.paulallenengineering.com/1/feed"/>
     <outline text="Context Information Security Blog" title="Context Information Security Blog" type="rss" xmlUrl="http://contextis.co.uk/blog/blog.xml"/>
     <outline text="Necromancer's notes" title="Necromancer's notes" type="rss" xmlUrl="http://ncrmnt.org/wp/feed/"/>
-    <outline text="Koci koci &#x17C;abci" title="Koci koci &#x17C;abci" type="rss" xmlUrl="http://kocikocizabci.blogspot.com/feeds/posts/default"/>
     <outline text="The H: Security news and Open source developments" title="The H: Security news and Open source developments" type="rss" xmlUrl="http://www.h-online.com/grand-atom.xml"/>
     <outline text="Slic3r" title="Slic3r" type="rss" xmlUrl="http://slic3r.org/rss"/>
     <outline text="Wide Open Throttle" title="Wide Open Throttle" type="rss" xmlUrl="http://wot.lv/feeds/all.atom.xml"/>
@@ -40,7 +39,6 @@
     <outline text="The missing link of Agile" title="The missing link of Agile" type="rss" xmlUrl="http://the-missing-link-of-agile.com/feed/"/>
     <outline text="EDRi" title="EDRi" type="rss" xmlUrl="http://edri.org/feed/"/>
     <outline text="Light Table Blog" title="Light Table Blog" type="rss" xmlUrl="http://www.lighttable.com/atom.xml"/>
-    <outline text="G&#x142;osy w mojej g&#x142;owie - ko..." title="G&#x142;osy w mojej g&#x142;owie - ko..." type="rss" xmlUrl="http://feeds.feedburner.com/GlosyWmojejGlowie"/>
     <outline text="Hack a Day" title="Hack a Day" type="rss" xmlUrl="http://hackaday.com/feed/"/>
     <outline text="Lambda the Ultimate | Programming Languages Weblog" title="Lambda the Ultimate | Programming Languages Weblog" type="rss" xmlUrl="http://lambda-the-ultimate.org/rss.xml"/>
     <outline text="JR's EE Blog" title="JR's EE Blog" type="rss" xmlUrl="http://jreeblog.wordpress.com/feed/"/>
