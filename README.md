@@ -32,6 +32,10 @@ Knowledge sources
 * Fowler's "Refactoring"
 * RSS feeds [share people's feeds]
 
+Noting stuff down
+
+* introduce to 'note everything sort later' aka 'post mortems and time management for free' approach
+
 ## Tech
 
 console
