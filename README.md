@@ -44,6 +44,7 @@ console
 * pipes, redirects
 
 SCM  
+* share configs, especially diff tool setups
 project setup -> ability to deploy
 
 Algorithms
