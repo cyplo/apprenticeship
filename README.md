@@ -2,6 +2,7 @@
 * for the apprentice to be able to learn on their own
 * baseline knowledge - other people to be able to expect knowledge of the subjects below when working with the apprentice
 * apprentice to feel comfortable asking questions
+* apprentice to be able to formulate a plan of attacking a problem by themselves - do not hand over a complete plan of actions
 
 ## General
 
@@ -44,7 +45,9 @@ console
 * pipes, redirects
 
 SCM  
+
 * share configs, especially diff tool setups
+
 project setup -> ability to deploy
 
 Algorithms
