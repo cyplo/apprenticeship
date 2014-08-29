@@ -37,12 +37,20 @@ Noting stuff down
 
 * introduce to 'note everything sort later' aka 'post mortems and time management for free' approach
 
+Learn to learn
+
+* review mistakes and sucesses every Friday
+*
+
 ## Tech
 
 console
 
+Windoze:
 * cygwin + bash/zsh
+
 * pipes, redirects
+* involve grep and find for finding places in code
 
 SCM  
 
