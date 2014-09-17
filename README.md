@@ -59,12 +59,18 @@ SCM
 project setup -> ability to deploy
 
 Algorithms
+* RSA
 
 Memory management
+* GC
+* heap
+* stack
 
 Computer bootup process
 
+
 Networking
+* ssl/tls
 
 IPC
 
