@@ -31,7 +31,7 @@ Knowledge sources
 
 * schedule slots for reading
 * Fowler's "Refactoring"
-* RSS feeds [share people's feeds]
+* RSS feeds [share people's feeds - see .opml files in the repo]
 
 Noting stuff down
 
@@ -50,9 +50,9 @@ Windoze:
 * cygwin + bash/zsh
 
 * pipes, redirects
-* involve grep and find for finding places in code
+* involve grep and find for finding places in legacy code
 
-SCM  
+SCM
 
 * share configs, especially diff tool setups
 
@@ -60,8 +60,10 @@ project setup -> ability to deploy
 
 Algorithms
 * RSA
+* hashes and dictionaries/hash maps
 
 Memory management
+* mapping between native memory and JVM/CLR memory
 * GC
 * heap
 * stack
@@ -75,6 +77,9 @@ Networking
 IPC
 
 multitasking
+* OS-level threads vs green threads
+* async io
+* immutability of your data and multithreading - functional programming vs object oriented
 
 Working with code  
 
@@ -88,3 +93,6 @@ Working with code
 * always reproduce a bug with fully automated test first
 * good naming: what it does, not how it does it
 * introduction to TDD
+* inner TDD loop vs outer, acceptance-tests driven TDD loop
+* spikes in TDD
+
