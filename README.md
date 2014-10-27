@@ -1,3 +1,7 @@
+This is apprentice program notes.
+Distributed aunder Creative Commons Attribution Sharealike International 4.0
+
+
 ## Goals
 * for the apprentice to be able to learn on their own
 * baseline knowledge - other people to be able to expect knowledge of the subjects below when working with the apprentice
