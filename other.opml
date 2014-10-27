@@ -5,6 +5,12 @@
   </head>
   <body>
     <outline text="CCC Event Weblog" title="CCC Event Weblog" type="rss" xmlUrl="http://events.ccc.de/feed/"/>
+    <outline text="Davide Gironi" title="Davide Gironi" type="rss" xmlUrl="http://davidegironi.blogspot.com/feeds/posts/default"/>
+    <outline text="http://cybergibbons.com/" title="http://cybergibbons.com/" type="rss" xmlUrl="http://cybergibbons.com/feed/"/>
+    <outline text="/dev/ttyS0" title="/dev/ttyS0" type="rss" xmlUrl="http://www.devttys0.com/feed/"/>
+    <outline text="EEVblog" title="EEVblog" type="rss" xmlUrl="http://www.eevblog.com/feed/"/>
+    <outline text="Ken Shirriff's blog" title="Ken Shirriff's blog" type="rss" xmlUrl="http://www.arcfn.com/feeds/posts/default"/>
+    <outline text="Alan Yates' Laboratory" title="Alan Yates' Laboratory" type="rss" xmlUrl="http://www.vk2zay.net/rss"/>
     <outline text="The GaMERCaT" title="The GaMERCaT" type="rss" xmlUrl="http://www.thegamercat.com/feed/"/>
     <outline text="WildCircuits" title="WildCircuits" type="rss" xmlUrl="http://www.wildcircuits.com/feeds/posts/default"/>
     <outline text="Hacker OPSEC" title="Hacker OPSEC" type="rss" xmlUrl="http://grugq.github.io/atom.xml"/>
