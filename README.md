@@ -62,11 +62,13 @@ SCM
 
 project setup -> ability to deploy
 
-Algorithms
+Algorithms:
+
 * RSA
 * hashes and dictionaries/hash maps
 
-Memory management
+Memory management:
+
 * mapping between native memory and JVM/CLR memory
 * GC
 * heap
@@ -75,12 +77,14 @@ Memory management
 Computer bootup process
 
 
-Networking
+Networking:
+
 * ssl/tls
 
 IPC
 
-multitasking
+Multitasking:
+
 * OS-level threads vs green threads
 * async io
 * immutability of your data and multithreading - functional programming vs object oriented
