@@ -1,5 +1,5 @@
 This is apprentice program notes.
-Distributed aunder Creative Commons Attribution Sharealike International 4.0
+Distributed under Creative Commons Attribution Sharealike International 4.0
 
 
 ## Goals
@@ -51,8 +51,8 @@ Learn to learn
 console
 
 Windoze:
-* cygwin + bash/zsh
 
+* cygwin + bash/zsh
 * pipes, redirects
 * involve grep and find for finding places in legacy code
 
