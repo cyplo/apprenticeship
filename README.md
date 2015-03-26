@@ -1,12 +1,12 @@
-This is apprentice program notes.
+These are notes for the Apprenticeship Programme.
 Distributed under Creative Commons Attribution Sharealike International 4.0
 
 
 ## Goals
 * for the apprentice to be able to learn on their own
-* baseline knowledge - other people to be able to expect knowledge of the subjects below when working with the apprentice
-* apprentice to feel comfortable asking questions
-* apprentice to be able to formulate a plan of attacking a problem by themselves - do not hand over a complete plan of actions
+* baselining knowledge - this allows other, equally trained, people to expect knowledge of the subjects below when working with the apprentice
+* for the apprentice to feel comfortable when asking questions
+* allows the apprentice to formulate a plan of approaching a problem on their own - do not hand over a complete plan of actions
 
 ## General
 
@@ -21,6 +21,7 @@ What's where
 
 Who's who
 
+* show the apprentice how to locate subject-matter experts using in-house tools
 * introduce people when working on particular problems [X might know about this, let us ask her !]
 
 Office tech
@@ -30,6 +31,14 @@ Office tech
 * IM setup + testing
 * VPN setup + tests
 * WiFi
+
+Company network
+
+* intranet
+* distribution lists
+* Wiki
+* Task management (TFS and Jira)
+* Build servers (TFS and Jira)
 
 Knowledge sources
 
@@ -44,7 +53,7 @@ Noting stuff down
 Learn to learn
 
 * review mistakes and sucesses every Friday
-*
+* open discussions with your peers, and not being afraid to ask stupid questions
 
 ## Tech
 
@@ -91,6 +100,8 @@ Multitasking:
 
 Working with code  
 
+* codetiquette - remember that in most cases you are not the only one working on this code
+* code standards - do the same monkey business your team mates do, in the same way they do it ;)
 * ability to read code
 * working with legacy code [freeze with tests + cut out approach]
 * negate condition -> decrease indentation  
@@ -98,6 +109,8 @@ Working with code
 * ifs/switch -> dictionary  
 * when to refactor ?   
     * symmetry broken  
+* continouous refactoring - improving your codebase rather than regressing it
+* guarded coding - *always* handle any exceptions that can be thrown, and always let unhandled exceptions bubble to the top (and handle them there)
 * always reproduce a bug with fully automated test first
 * good naming: what it does, not how it does it
 * introduction to TDD
