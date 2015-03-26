@@ -117,3 +117,6 @@ Working with code
 * inner TDD loop vs outer, acceptance-tests driven TDD loop
 * spikes in TDD
 
+META
+
+* Recommend changes to the apprenticeship programme
