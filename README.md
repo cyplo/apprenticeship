@@ -109,7 +109,7 @@ Working with code
 * ifs/switch -> dictionary  
 * when to refactor ?   
     * symmetry broken  
-* continouous refactoring - improving your codebase rather than regressing it
+* continuous refactoring - improving your codebase rather than regressing it
 * guarded coding - *always* handle any exceptions that can be thrown, and always let unhandled exceptions bubble to the top (and handle them there)
 * always reproduce a bug with fully automated test first
 * good naming: what it does, not how it does it
