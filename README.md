@@ -96,7 +96,10 @@ Memory management:
 * heap
 * stack
 
-Computer bootup process
+Computer bootup process  
+
+* [Bare metal Rust](http://www.randomhacks.net/bare-metal-rust/)
+* [What happens when you type](https://github.com/alex/what-happens-when)
 
 Networking:
 
