@@ -1,6 +1,13 @@
 These are notes for the Apprenticeship Programme.
 Distributed under Creative Commons Attribution Sharealike International 4.0
 
+## Preface
+
+This programme intends to embed the same baseline knowledge into a new person, to avoid discovering holes in their knowledge later.
+
+This programme needs a one-to-one pairing of apprentice with a senior developer. It must be implemented within existing team structure, already working on some project. The reason for such requirements is to present the apprentice with real-life problems. Because of the above it works best with long-term assignements, where you invest in a person and your team dynamics up front to get the work quality you need.
+
+Recommended timeframe for covering the topics below is 3 months, however can be shortened/made longer depending on the progress of the apprentice.
 
 ## Goals
 * for the apprentice to be able to learn on their own
@@ -9,6 +16,12 @@ Distributed under Creative Commons Attribution Sharealike International 4.0
 * allows the apprentice to formulate a plan of approaching a problem on their own - do not hand over a complete plan of actions
 
 ## General
+
+Before apprentice starts:  
+
+* decide on the mentor
+* make sure that everyone understands that we're investing the time now to iron out all of the issues today - this means that the whole team is taking a performance hit by accepting the apprentice, and they do want to do it anyway.
+* make sure to announce when the apprentice starts to everyone involved.
 
 Starting
 
@@ -37,18 +50,20 @@ Company network
 * intranet
 * distribution lists
 * Wiki
-* Task management (TFS and Jira)
-* Build servers (TFS and Jira)
+* Task management
+
+Project infrastructure.
+* Build servers
 
 Knowledge sources
 
-* schedule slots for reading
+* schedule slots for reading - make Friday the day of learning
 * Fowler's "Refactoring"
 * RSS feeds [share people's feeds - see .opml files in the repo]
 
 Noting stuff down
 
-* introduce to 'note everything sort later' aka 'post mortems and time management for free' approach
+* introduce to 'note everything, sort later' aka 'post mortems and time management for free' approach
 
 Learn to learn
 
@@ -57,11 +72,9 @@ Learn to learn
 
 ## Tech
 
-console
+commandline:
 
-Windoze:
-
-* cygwin + bash/zsh
+* bash/zsh [cygwin if Windoze]
 * pipes, redirects
 * involve grep and find for finding places in legacy code
 
@@ -85,10 +98,10 @@ Memory management:
 
 Computer bootup process
 
-
 Networking:
 
 * ssl/tls
+* C10K problem, implement singlethreaded low level server on raw sockets
 
 IPC
 
