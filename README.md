@@ -76,6 +76,7 @@ commandline:
 
 * bash/zsh [cygwin if Windoze]
 * pipes, redirects
+* when in doubt use the simpliest, most brute force tools possible, i.e. grep and find. introduce grep as a tool to check for mistakes during refactorings, etc
 * involve grep and find for finding places in legacy code
 
 SCM
@@ -84,6 +85,7 @@ SCM
 * spend some real time explaining basics of centralized vs distributed solutions
 * [good branching model reaching](http://nvie.com/posts/a-successful-git-branching-model/)
 * [interactive git tutorial](http://pcottle.github.io/learnGitBranching/)
+* always look at diffs before commiting
 
 project setup -> ability to deploy
 
@@ -129,7 +131,11 @@ Working with code
 * when to refactor ?   
     * symmetry broken  
 * continuous refactoring - improving your codebase rather than regressing it
-* guarded coding - *always* handle any exceptions that can be thrown, and always let unhandled exceptions bubble to the top (and handle them there)
+* error and exception handling
+    * do not use exceptions for flow control
+    * talk about the difference in execution paths, how exceptions affect stack etc
+    * introduce monadic error handling
+    * care about what you can handle, pass all other stuff upwards
 * always reproduce a bug with fully automated test first
 * good naming: what it does, not how it does it
 * introduction to TDD

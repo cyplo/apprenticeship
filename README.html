@@ -364,6 +364,7 @@ Distributed under Creative Commons Attribution Sharealike International 4.0</p>
 <ul>
 <li>bash/zsh [cygwin if Windoze]</li>
 <li>pipes, redirects</li>
+<li>when in doubt use the simpliest, most brute force tools possible, i.e. grep and find. introduce grep as a tool to check for mistakes during refactorings, etc</li>
 <li>involve grep and find for finding places in legacy code</li>
 </ul>
 <p>SCM</p>
@@ -372,6 +373,7 @@ Distributed under Creative Commons Attribution Sharealike International 4.0</p>
 <li>spend some real time explaining basics of centralized vs distributed solutions</li>
 <li><a href="http://nvie.com/posts/a-successful-git-branching-model/">good branching model reaching</a></li>
 <li><a href="http://pcottle.github.io/learnGitBranching/">interactive git tutorial</a></li>
+<li>always look at diffs before commiting</li>
 </ul>
 <p>project setup -&gt; ability to deploy</p>
 <p>Algorithms:</p>
@@ -426,7 +428,15 @@ when to refactor ?
 </ul>
 </li>
 <li>continuous refactoring - improving your codebase rather than regressing it</li>
-<li>guarded coding - <em>always</em> handle any exceptions that can be thrown, and always let unhandled exceptions bubble to the top (and handle them there)</li>
+<li>
+error and exception handling
+<ul>
+<li>do not use exceptions for flow control</li>
+<li>talk about the difference in execution paths, how exceptions affect stack etc</li>
+<li>introduce monadic error handling</li>
+<li>care about what you can handle, pass all other stuff upwards</li>
+</ul>
+</li>
 <li>always reproduce a bug with fully automated test first</li>
 <li>good naming: what it does, not how it does it</li>
 <li>introduction to TDD</li>
