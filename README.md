@@ -81,6 +81,9 @@ commandline:
 SCM
 
 * share configs, especially diff tool setups
+* spend some real time explaining basics of centralized vs distributed solutions
+* [good branching model reaching](http://nvie.com/posts/a-successful-git-branching-model/)
+* [interactive git tutorial](http://pcottle.github.io/learnGitBranching/)
 
 project setup -> ability to deploy
 
