@@ -9,6 +9,10 @@ This programme needs a one-to-one pairing of apprentice with a senior developer.
 
 Recommended timeframe for covering the topics below is 3 months, however can be shortened/made longer depending on the progress of the apprentice.
 
+Tested on several mentor-apprentice pairs, always with local pairing. No remote experience here, would probably need adjustment for remote settings.
+
+If you have experience being an apprentice or a mentor - feel free to add a pull request here, however small !
+
 ## Goals
 * for the apprentice to be able to learn on their own
 * baselining knowledge - this allows other, equally trained, people to expect knowledge of the subjects below when working with the apprentice
