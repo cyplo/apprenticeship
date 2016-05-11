@@ -1,294 +1,9 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="generator" content="ReText 5.0.1">
 <title>README</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<style type="text/css">
-/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
-/* Author: Nicolas Hery - http://nicolashery.com */
-/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
-/* Source: https://github.com/nicolahery/markdownpad-github */
-
-/* RESET
-=============================================================================*/
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-/* BODY
-=============================================================================*/
-
-body {
-  font-family: Helvetica, arial, freesans, clean, sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
-  color: #333;
-  background-color: #fff;
-  padding: 20px;
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-body>*:first-child {
-  margin-top: 0 !important;
-}
-
-body>*:last-child {
-  margin-bottom: 0 !important;
-}
-
-/* BLOCKS
-=============================================================================*/
-
-p, blockquote, ul, ol, dl, table, pre {
-  margin: 15px 0;
-}
-
-/* HEADERS
-=============================================================================*/
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 20px 0 10px;
-  padding: 0;
-  font-weight: bold;
-  -webkit-font-smoothing: antialiased;
-}
-
-h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
-  font-size: inherit;
-}
-
-h1 {
-  font-size: 28px;
-  color: #000;
-}
-
-h2 {
-  font-size: 24px;
-  border-bottom: 1px solid #ccc;
-  color: #000;
-}
-
-h3 {
-  font-size: 18px;
-}
-
-h4 {
-  font-size: 16px;
-}
-
-h5 {
-  font-size: 14px;
-}
-
-h6 {
-  color: #777;
-  font-size: 14px;
-}
-
-body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
-  margin-top: 10px;
-}
-
-/* LINKS
-=============================================================================*/
-
-a {
-  color: #4183C4;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* LISTS
-=============================================================================*/
-
-ul, ol {
-  padding-left: 30px;
-}
-
-ul li > :first-child, 
-ol li > :first-child, 
-ul li ul:first-of-type, 
-ol li ol:first-of-type, 
-ul li ol:first-of-type, 
-ol li ul:first-of-type {
-  margin-top: 0px;
-}
-
-ul ul, ul ol, ol ol, ol ul {
-  margin-bottom: 0;
-}
-
-dl {
-  padding: 0;
-}
-
-dl dt {
-  font-size: 14px;
-  font-weight: bold;
-  font-style: italic;
-  padding: 0;
-  margin: 15px 0 5px;
-}
-
-dl dt:first-child {
-  padding: 0;
-}
-
-dl dt>:first-child {
-  margin-top: 0px;
-}
-
-dl dt>:last-child {
-  margin-bottom: 0px;
-}
-
-dl dd {
-  margin: 0 0 15px;
-  padding: 0 15px;
-}
-
-dl dd>:first-child {
-  margin-top: 0px;
-}
-
-dl dd>:last-child {
-  margin-bottom: 0px;
-}
-
-/* CODE
-=============================================================================*/
-
-pre, code, tt {
-  font-size: 12px;
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
-}
-
-code, tt {
-  margin: 0 0px;
-  padding: 0px 0px;
-  white-space: nowrap;
-  border: 1px solid #eaeaea;
-  background-color: #f8f8f8;
-  border-radius: 3px;
-}
-
-pre>code {
-  margin: 0;
-  padding: 0;
-  white-space: pre;
-  border: none;
-  background: transparent;
-}
-
-pre {
-  background-color: #f8f8f8;
-  border: 1px solid #ccc;
-  font-size: 13px;
-  line-height: 19px;
-  overflow: auto;
-  padding: 6px 10px;
-  border-radius: 3px;
-}
-
-pre code, pre tt {
-  background-color: transparent;
-  border: none;
-}
-
-kbd {
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    background-color: #DDDDDD;
-    background-image: linear-gradient(#F1F1F1, #DDDDDD);
-    background-repeat: repeat-x;
-    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
-    border-image: none;
-    border-radius: 2px 2px 2px 2px;
-    border-style: solid;
-    border-width: 1px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 10px;
-    padding: 1px 4px;
-}
-
-/* QUOTES
-=============================================================================*/
-
-blockquote {
-  border-left: 4px solid #DDD;
-  padding: 0 15px;
-  color: #777;
-}
-
-blockquote>:first-child {
-  margin-top: 0px;
-}
-
-blockquote>:last-child {
-  margin-bottom: 0px;
-}
-
-/* HORIZONTAL RULES
-=============================================================================*/
-
-hr {
-  clear: both;
-  margin: 15px 0;
-  height: 0px;
-  overflow: hidden;
-  border: none;
-  background: transparent;
-  border-bottom: 4px solid #ddd;
-  padding: 0;
-}
-
-/* TABLES
-=============================================================================*/
-
-table th {
-  font-weight: bold;
-}
-
-table th, table td {
-  border: 1px solid #ccc;
-  padding: 6px 13px;
-}
-
-table tr {
-  border-top: 1px solid #ccc;
-  background-color: #fff;
-}
-
-table tr:nth-child(2n) {
-  background-color: #f8f8f8;
-}
-
-/* IMAGES
-=============================================================================*/
-
-img {
-  max-width: 100%
-}
-</style>
 </head>
 <body>
 <p>These are notes for the Apprenticeship Programme.
@@ -297,6 +12,10 @@ Distributed under Creative Commons Attribution Sharealike International 4.0</p>
 <p>This programme intends to embed the same baseline knowledge into a new person, to avoid discovering holes in their knowledge later.</p>
 <p>This programme needs a one-to-one pairing of apprentice with a senior developer. It must be implemented within existing team structure, already working on some project. The reason for such requirements is to present the apprentice with real-life problems. Because of the above it works best with long-term assignements, where you invest in a person and your team dynamics up front to get the work quality you need.</p>
 <p>Recommended timeframe for covering the topics below is 3 months, however can be shortened/made longer depending on the progress of the apprentice.</p>
+<p>Tested on several mentor-apprentice pairs, always with local pairing. No remote experience here, would probably need adjustment for remote settings.
+Have such experience - please contribute !</p>
+<p>If you have experience being an apprentice or a mentor - feel free to add a pull request here, however small !</p>
+<p>Don't want to create a pull request ? Starting an apprenticeship programme and unsure how it should be run in practice ? World seems bleak and stripped of joy ? Contact me: email/jabber/xmpp: cyplo@cyplo.net</p>
 <h2>Goals</h2>
 <ul>
 <li>for the apprentice to be able to learn on their own</li>
@@ -305,8 +24,7 @@ Distributed under Creative Commons Attribution Sharealike International 4.0</p>
 <li>allows the apprentice to formulate a plan of approaching a problem on their own - do not hand over a complete plan of actions</li>
 </ul>
 <h2>General</h2>
-<p>Before apprentice starts:  
-</p>
+<p>Before apprentice starts:  </p>
 <ul>
 <li>decide on the mentor</li>
 <li>make sure that everyone understands that we're investing the time now to iron out all of the issues today - this means that the whole team is taking a performance hit by accepting the apprentice, and they do want to do it anyway.</li>
@@ -314,10 +32,17 @@ Distributed under Creative Commons Attribution Sharealike International 4.0</p>
 </ul>
 <p>Starting</p>
 <ul>
-<li>discuss experiences, come up with a plan for first week <strong>together</strong></li>
+<li>look through this document</li>
+<li>look through other materials available<ul>
+<li><a href="https://github.com/joebew42/study-path">study paths</a></li>
 </ul>
-<p>What's where  
-</p>
+</li>
+<li>discuss your experience, come up with a plan for first week <strong>together</strong></li>
+<li>after the week come up with the plan for the next week and so on every week</li>
+<li>treat this document as a rough sketch of a overarching plan/list of goals</li>
+<li>revise the progress on the bigger picture every week</li>
+</ul>
+<p>What's where  </p>
 <ul>
 <li>office supplies
 *</li>
@@ -347,7 +72,7 @@ Distributed under Creative Commons Attribution Sharealike International 4.0</p>
 <p>Knowledge sources</p>
 <ul>
 <li>schedule slots for reading - make Friday the day of learning</li>
-<li>Fowler's &quot;Refactoring&quot;</li>
+<li>Fowler's "Refactoring"</li>
 <li>RSS feeds [share people's feeds - see .opml files in the repo]</li>
 </ul>
 <p>Noting stuff down</p>
@@ -388,8 +113,7 @@ Distributed under Creative Commons Attribution Sharealike International 4.0</p>
 <li>heap</li>
 <li>stack</li>
 </ul>
-<p>Computer bootup process  
-</p>
+<p>Computer bootup process  </p>
 <ul>
 <li><a href="http://www.randomhacks.net/bare-metal-rust/">Bare metal Rust</a></li>
 <li><a href="https://github.com/alex/what-happens-when">What happens when you type</a></li>
@@ -406,31 +130,21 @@ Distributed under Creative Commons Attribution Sharealike International 4.0</p>
 <li>async io</li>
 <li>immutability of your data and multithreading - functional programming vs object oriented</li>
 </ul>
-<p>Working with code  
-</p>
+<p>Working with code  </p>
 <ul>
 <li>codetiquette - remember that in most cases you are not the only one working on this code</li>
-<li>code standards - do the same monkey business your team mates do, in the same way they do it ;)</li>
+<li>code standards - the more boring the better, the more uniform the better</li>
 <li>ability to read code</li>
 <li>working with legacy code [freeze with tests + cut out approach]</li>
-<li>negate condition -&gt; decrease indentation  
-</li>
-<li>guard clauses at the beginning  
-</li>
-<li>ifs/switch -&gt; dictionary  
-</li>
-<li>
-when to refactor ?   
-
-<ul>
-<li>symmetry broken  
-</li>
+<li>negate condition -&gt; decrease indentation  </li>
+<li>guard clauses at the beginning  </li>
+<li>ifs/switch -&gt; dictionary  </li>
+<li>when to refactor ?   <ul>
+<li>symmetry broken  </li>
 </ul>
 </li>
 <li>continuous refactoring - improving your codebase rather than regressing it</li>
-<li>
-error and exception handling
-<ul>
+<li>error and exception handling<ul>
 <li>do not use exceptions for flow control</li>
 <li>talk about the difference in execution paths, how exceptions affect stack etc</li>
 <li>introduce monadic error handling</li>
@@ -447,7 +161,5 @@ error and exception handling
 <ul>
 <li>Recommend changes to the apprenticeship programme</li>
 </ul>
-
 </body>
 </html>
-<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->

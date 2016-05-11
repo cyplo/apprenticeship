@@ -32,7 +32,14 @@ Before apprentice starts:
 
 Starting
 
-* discuss experiences, come up with a plan for first week **together**
+
+* look through this document
+* look through other materials available
+    * [study paths](https://github.com/joebew42/study-path)
+* discuss your experience, come up with a plan for first week **together**
+* after the week come up with the plan for the next week and so on every week
+* treat this document as a rough sketch of a overarching plan/list of goals
+* revise the progress on the bigger picture every week
 
 What's where  
 
