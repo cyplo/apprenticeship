@@ -129,7 +129,7 @@ Multitasking:
 Working with code  
 
 * codetiquette - remember that in most cases you are not the only one working on this code
-* code standards - do the same monkey business your team mates do, in the same way they do it ;)
+* code standards - the more boring the better, the more uniform the better
 * ability to read code
 * working with legacy code [freeze with tests + cut out approach]
 * negate condition -> decrease indentation  
