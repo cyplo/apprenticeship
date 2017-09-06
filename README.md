@@ -99,6 +99,7 @@ SCM
 * spend some real time explaining basics of centralized vs distributed solutions
 * [good branching model reaching](http://nvie.com/posts/a-successful-git-branching-model/)
 * [interactive git tutorial](http://pcottle.github.io/learnGitBranching/)
+* [how to revert anything in git](https://sethrobertson.github.io/GitFixUm/fixup.html)
 * always look at diffs before commiting
 
 project setup -> ability to deploy
